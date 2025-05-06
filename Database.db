@@ -1,1 +1,11 @@
-# "List of information of personal that reserv onda this page"
+CREATE TABLE reservaciones (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre TEXT NOT NULL,
+    ci TEXT NOT NULL,
+    destino TEXT NOT NULL,
+    municipio TEXT NOT NULL,
+    omnibus TEXT NOT NULL,
+    fecha TEXT NOT NULL,
+    telefono TEXT NOT NULL,
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
